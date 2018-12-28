@@ -1,0 +1,59 @@
+{
+  "title": "Announcement",
+  "type": "object",
+  "description": "Announcement Details",
+  "properties": {
+    "fileUrl": {
+      "type": "string",
+      "description": "The file path for the broker document to be announced"
+    },
+    "type": {
+      "type": "integer",
+      "enum": [0,1],
+      "description": "The value denotes the type of (0 = broker document, 1 = Software) announcement"
+    },
+    "digest": {
+      "type": "array",
+      "description": "The byte array of the digest of a broker document",
+      "items": {
+        "type": "byte"
+      }
+    },
+    "digestAlgorithm": {
+      "type": "string",
+      "description": "The Algorithm to be used for the digest"
+    },
+    "name": {
+      "type": "string",
+      "description": "The name of the announcement"
+    },
+    "version": {
+      "type": "string",
+      "description": "The version number of the document to be announced"
+    },
+    "blockSize": {
+      "type": "integer",
+      "description": "The block size in which the document is to be announced"
+    },
+    "bandwidth": {
+      "type": "integer",
+      "descrption": "The bandwidth required for the software announcement to downloaded"
+    },
+    "mcastAddress":{
+      "type": "string",
+      "description": "The IP address to be used for the multicast of the broker document/software announcement"
+    },
+    "mcastPort": {
+      "type": "integer",
+      "description": "The port number to be used for the multicast of the broker document/ software announcement"
+    },
+    "mdcBandwidth":{
+      "type": "integer",
+      "description": "The MDC bandwidth required for the broker document announcment to download"
+    },
+    "announcement":{
+      "type": "boolean",
+      "description": "The boolean value denotes whether applicable for multicast or not"
+    }
+  }
+}

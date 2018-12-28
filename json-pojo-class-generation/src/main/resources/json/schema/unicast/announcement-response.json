@@ -1,0 +1,22 @@
+{
+  "title": "Announcement Response",
+  "description": "The status information returned from MMDDF application",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the announcement which is be announced by MMDDF"
+    },
+    "mcastAddress":{
+      "type": "string",
+      "description": "The IP address used for the multicast of the broker document/software announcement"
+    },
+    "mcastPort": {
+      "type": "integer",
+      "description": "The port number used for the multicast of the broker document/ software announcement"
+    },
+    "status":{
+      "type": "boolean",
+      "description": "The boolean value denotes the status of the given announcement returned from MMDDF"
+    }
+  }
+}

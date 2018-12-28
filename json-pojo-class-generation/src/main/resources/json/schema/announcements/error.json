@@ -1,0 +1,15 @@
+{
+  "title": "Error",
+  "type": "object",
+  "properties":{
+    "code": {
+      "type": "string",
+      "description": "Code"
+    },
+    "message": {
+      "type": "string",
+      "description": "Message"
+    }
+  },
+  "required": ["code", "message"]
+}

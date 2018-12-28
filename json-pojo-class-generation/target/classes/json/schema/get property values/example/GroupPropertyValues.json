@@ -1,0 +1,18 @@
+{
+	"PropertyValues": [
+		{
+			"Name": "Locations",
+			"Values": [
+				"Amsterdam",
+				"Rotterdam"
+			]
+		},
+		{
+			"Name": "HWVersions",
+			"Values": [
+				"SAIPP430MC",
+				"Motorola_VIP1963"
+			]
+		}
+	]
+}

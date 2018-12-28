@@ -1,0 +1,49 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"AuditLogs": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Action": {
+						"type": "string"
+					},
+					"Id": {
+						"type": "integer"
+					},
+					"Name": {
+						"type": "string"
+					},
+					"Description": {
+						"type": "string"
+					},
+					"GroupExpression": {
+						"type": "string"
+					},
+					"Status": {
+						"type": "string"
+					},
+					"LastUpdateUserId": {
+						"type": "string"
+					},
+					"LastUpdateDateTime": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"Action",
+					"Id",
+					"Name",
+					"Description",
+					"GroupExpression",
+					"Status",
+					"LastUpdateUserId",
+					"LastUpdateDateTime" ]
+			}
+		}
+	},
+	"required": [
+		"AuditLogs" ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Announcements",
+  "type": "object",
+  "properties": {
+    "announcements": {
+      "type": "array",
+      "description": "List of details of announcements",
+      "items": [
+      {
+      	"type": "string",
+        "#ref": "announcement.json",
+        "description": "The details of an announcement"
+      }
+      ]
+    }
+  }
+}

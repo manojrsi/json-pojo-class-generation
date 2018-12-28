@@ -1,0 +1,78 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"GroupDetails": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Id": {
+						"type": "integer"
+					},
+					"Name": {
+						"type": "string"
+					},
+					"Description": {
+						"type": "string"
+					},
+					"GroupExpression": {
+						"type": "string"
+					},
+					"Status": {
+						"type": "string"
+					},
+					"LastUpdateUserId": {
+						"type": "string"
+					},
+					"LastUpdateDateTime": {
+						"type": "string"
+					},
+					"EstimatedMembers": {
+						"type": "integer"
+					}
+				},
+				"required": [
+					"Id",
+					"Name",					
+					"GroupExpression",
+					"Status",
+					"LastUpdateUserId",
+					"LastUpdateDateTime"
+				]
+			}
+		}
+	},
+	"Error": {
+		"type": "array",
+		"items": {
+			"type": "object",
+			"javaInterfaces": [
+				"java.io.Serializable"
+			],
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"resultCode": {
+					"type": "string"
+				},
+				"resultDescription": {
+					"type": "string"
+				}
+			},
+			"additionalProperties": false,
+			"required": [
+				"name",
+				"resultCode",
+				"resultDescription"
+			]
+		}
+	},
+	"systemTime": {
+		"type": "integer"
+	},
+	"required": [
+		"systemTime"
+	]
+}

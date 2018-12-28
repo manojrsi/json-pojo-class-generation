@@ -1,0 +1,11 @@
+{
+  "title": "CacheServersResponse",
+  "type": "object",
+  "description": "The response against the CDN cache servers information udpated in UMDDF",
+  "properties": {
+    "status": {
+      "type": "boolean",
+      "description": "The status whether the UMDDF has been updated with provided CDN cache servers information or not"
+    }
+  }
+}

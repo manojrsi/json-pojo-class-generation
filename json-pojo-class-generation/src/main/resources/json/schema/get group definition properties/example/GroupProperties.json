@@ -1,0 +1,35 @@
+{
+	"Property": [
+		{
+			"Name": "subscriber",
+			"DisplayName": "Subscriber",
+			"Position": 1
+		},
+		{
+			"Name": "setTopBoxes",
+			"DisplayName": "Set-Top Boxes",
+			"Position": 5
+		},
+		{
+			"Name": "location",
+			"Parent": "subscriber",
+			"Position": 2,
+			"Type": "List",
+			"DisplayName": "LocationName"
+		},
+		{
+			"Name": "city",
+			"Parent": "subscriber",
+			"Position": 3,
+			"Type": "String",
+			"DisplayName": "City"
+		},
+		{
+			"Name": "hardwareVersion",
+			"Parent": "setTopBoxes",
+			"Position": 6,
+			"Type": "List",
+			"DisplayName": "Hardware Version"
+		}
+	]
+}

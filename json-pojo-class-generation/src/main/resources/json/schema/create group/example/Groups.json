@@ -1,0 +1,9 @@
+{
+	"Group": [
+		 {
+			"Name": "group1",
+			"Description": "group1",
+			"GroupExpression": "hardwareversion = \"Motorola_VIP1963\"",
+			"Status": "Active"			
+		} ]
+}

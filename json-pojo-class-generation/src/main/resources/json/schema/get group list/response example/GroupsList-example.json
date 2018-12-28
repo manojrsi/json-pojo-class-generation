@@ -1,0 +1,13 @@
+{
+	"GroupList": [
+		 {
+			"Id": 12,
+			"Name": "group1",
+			"Status": "Active"
+		},
+		 {
+			"Id": 123,
+			"Name": "group2",
+			"Status": "Active"
+		} ]
+}

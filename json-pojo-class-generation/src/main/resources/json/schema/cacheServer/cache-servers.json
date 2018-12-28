@@ -1,0 +1,14 @@
+{
+  "title": "CacheServers",
+  "type": "object",
+  "properties" :{
+    "cacheServers": {
+      "type": "array",
+      "description": "A list of addresses of cache servers",
+      "items": {
+        "type": "string",
+        "description": "The address of a cache server"
+      }
+    }
+  }
+}

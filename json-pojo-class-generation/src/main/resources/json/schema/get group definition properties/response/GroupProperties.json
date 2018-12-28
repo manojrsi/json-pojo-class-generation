@@ -1,0 +1,39 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"Property": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Name": {
+						"type": "string"
+					},
+					"Parent": {
+						"type": "string"
+					},
+					"Position": {
+						"type": "string"
+					},
+					"Type": {
+						"enum": [
+							"List",
+							"Text"
+						]
+					},
+					"DisplayName": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"Name",
+					"DisplayName"
+				]
+			}
+		}
+	},
+	"required": [
+		"Property"
+	]
+}

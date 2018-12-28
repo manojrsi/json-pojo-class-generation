@@ -1,0 +1,13 @@
+{
+  "title": "Announcement Notification Responses",
+  "description": "The status informations returned from MMDDF application",
+  "properties": {
+    "responses": {
+      "type": "array",
+      "items": {
+        "#ref": "announcement-response.json",
+        "description": "The status information of an announcement"
+      }
+    }
+  }
+}

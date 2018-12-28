@@ -1,0 +1,15 @@
+{
+	"resultObject": [
+		{
+			"resultCode": "ACN_9010",
+			"resultDescription": "Error description",
+			"id": "123"
+		},
+		{
+			"resultCode": "ACN_9020",
+			"resultDescription": "Error description",
+			"id": "234"
+		}
+	],
+	"systemTime": 1234561234567
+}
